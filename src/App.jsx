@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { FormCreateTask } from "./components/form/FormCreateTask.jsx";
 import { ListActions } from "./components/list-actions/ListActions";
-import { TaskList } from "./components/taks-list/TaskList";
-import { tasks } from "./data/tasks.js";
+import { TaskList } from "./components/task-list/TaskList";
+import { tasks } from "./data/tasks.jsx";
 
 function App() {
   const [taskList, setTaskList] = useState(tasks);
